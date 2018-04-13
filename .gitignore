@@ -56,4 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
-
+.serverless
+config.*.js
+!config.sample.js
