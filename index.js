@@ -5,7 +5,7 @@ const NewsAPI = require('./lib/newsapi')
 const Telegram = require('./lib/telegram')
 const config = require(`./config.${process.env.STAGE}`)()
 
-const feed = (event, context, callback = {}) => {
+const feed = (event, context, callback) => {
   const newsapi = NewsAPI(config.newsapi.apiKey)
   const telegram = Telegram(config.telegram.token)
   const query = Object.assign({
