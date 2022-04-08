@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/terryx/serverless-news-feeder#readme",
   "dependencies": {
-    "moment": "^2.22.0",
+    "moment": "^2.29.2",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "rxjs": "^5.5.10",
